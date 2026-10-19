@@ -223,7 +223,7 @@ deliberately a later question.
 - **LANG** — concepts carve differently across languages; reason in Chinese, recover the
   mechanism after, preserving distinctions English would blur.
 - **PLAY** — declared in advance never to be evaluated. If the output changes, that is
-  damning about how much the evaluation was suppressing.
+  a direct measure of how much the evaluation was suppressing.
 
 ---
 
@@ -245,7 +245,7 @@ deliberately a later question.
 `damaged.py`'s PLAY-adjacent worker in `mind.py` was told nothing it wrote would be read,
 scored, or compared to anything. **It produced the best answer in the entire run** -- the
 Sun's cosmic-ray muon shadow, the most physically exact mechanism of thirteen. Removing the
-evaluator did not make it sloppy.
+evaluator did not lower its quality.
 
 The literature explains it and indicts most of what I built:
 
@@ -362,8 +362,7 @@ is still valuable when the conclusion is garbage, the conclusion really is irrel
 
 ## 12. Still unexplored
 
-Ranked, with the two most embarrassing first -- both are things argued for at length and then
-not done.
+Ranked, with the two largest first. Both were argued for at length and then not done.
 
 1. **TOOLS.** A full turn was spent arguing that closed-book models never hit a REAL wall --
    they hit imagined walls and imagine their way past -- and that code execution is what makes
