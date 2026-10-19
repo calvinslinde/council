@@ -1,8 +1,8 @@
 # Council
 
-A cheap-model swarm that attacks its own answer, and a judge that was checked against a person before its numbers were used.
+Council is a group of cheap AI models that attack their own answer, and a judge that I checked against a person before I used its numbers.
 
-Most of this repo is the thing that survived an August 2026 study of whether a group of very cheap models can stand in for one strong model. The study's record, including the claims that were later overturned, is in `FINDINGS.md`. The current state of the method is in `COMBOS.md`.
+Most of this repo is what survived an August 2026 study where I wanted to know if a group of very cheap models could stand in for one strong model. The record of the study is in `FINDINGS.md`, including the claims that turned out wrong. The current state of the method is in `COMBOS.md`.
 
 ## What it does
 
