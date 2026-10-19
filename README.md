@@ -4,6 +4,10 @@ Council is a group of cheap AI models that attack their own answer, and a judge 
 
 Most of this repo is what survived an August 2026 study where I wanted to know if a group of very cheap models could stand in for one strong model. The record of the study is in `FINDINGS.md`, including the claims that turned out wrong. The current state of the method is in `COMBOS.md`.
 
+## What the study found
+
+On problems with one checkable answer, the group added nothing over a simple vote. On the open research problem, the cheap group found a flaw the strong model had missed, at about 1/70 of the cost, but the strong model was still better at building the solution. That was one trial and I was the judge, so I treat it as a lead, not a result. The full record, including the four grader bugs and the judge verdicts that changed, is in `FINDINGS.md`.
+
 ## What it does
 
 `council.py` takes a question and runs the arm that won the comparison:
@@ -12,7 +16,7 @@ Most of this repo is what survived an August 2026 study where I wanted to know i
 2. each answer is attacked from assigned angles until the attacks stop landing;
 3. the revision that survives is kept.
 
-The output ships with its scars, not with a self-assessment: the claim, how many assigned attacks it held, which attacks survived, what would falsify it, and what it depends on.
+The output comes with its record instead of a self-assessment: the claim, how many assigned attacks it held, which attacks survived, what would falsify it, and what it depends on.
 
 `judge.py` is the evaluator used to score answers. It was validated against hand-checked verdicts before it was trusted; 17 of its first 42 verdicts changed when that check was done, which is why it exists in this form.
 
